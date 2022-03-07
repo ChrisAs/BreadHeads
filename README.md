@@ -6,7 +6,13 @@
  <img src="gitAssets/main.jpg" />
 </p>
 
+<p align="center">
+ <img src="gitAssets/section.jpg" />
+</p>
 
+<p align="center">
+ <img src="gitAssets/team.jpg" />
+</p>
 ## how to build
 
 1. run npm install (inside the BH dir)
