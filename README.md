@@ -3,7 +3,7 @@
 ## Screenshots
 
 <p align="center">
- <img src="BreadHeads/gitAssets/main.jpg" />
+ <img src="gitAssets/main.jpg" />
 </p>
 
 
