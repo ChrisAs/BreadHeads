@@ -1,0 +1,63 @@
+
+.header-content {
+    display: flex !important;
+    padding: 100px !important;
+}
+
+.mint-button {
+    border: 1px solid black;
+    margin-left: auto;
+    background-color: #F5F595;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.twitter-follow-button {
+    border: 1px solid black;
+    background-color: #5DA9DD;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+@media (max-width: 789px) {
+    .header-content {
+        padding: 60px 20px !important;
+    }
+}
+
+@media (max-width: 550px) {
+    .header-content {
+        padding: 45px 5px !important;
+    }
+    .mint-button {
+        font-size: 12px;
+        padding: 7px;
+    }
+    .twitter-follow-button {
+        font-size: 12px;
+        padding: 7px;
+    }
+    .twitter-follow-button {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .mint-button {
+        font-size: 12px;
+        padding: 7px;
+    }
+    .twitter-follow-button {
+        font-size: 12px;
+        padding: 7px;
+    }
+    .header-content {
+        padding: 40px 0 !important;
+    }
+    .twitter-follow-button {
+        margin: 0 5px;
+    }
+}

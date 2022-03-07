@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-header {
+  height: 100vh;
+  width: 100%;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  z-index: -10;
+}
+
+.header-inner-div {
+  padding: 220px 50px;
+}
+@media (max-width: 1400px) {
+  .nav-header {
+    height: 90vh;
+  }
+
+  .main-image {
+    height: 90vh;
+  }
+}
+@media (max-width: 1200px) {
+  .nav-header {
+    height: 80vh;
+  }
+
+  .main-image {
+    height: 80vh;
+  }
+}
+@media (max-width: 1050px) {
+  .nav-header {
+    height: 70vh;
+  }
+
+  .main-image {
+    height: 70vh;
+  }
+
+  .header-inner-div {
+    padding: 150px 0 20px 35px;
+  }
+}
+@media (max-width: 890px) {
+  .nav-header {
+    height: 60vh;
+  }
+
+  .main-image {
+    height: 60vh;
+  }
+}
+@media (max-width: 750px) {
+  .nav-header {
+    height: 50vh;
+  }
+
+  .main-image {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-header {
+    height: 40vh;
+  }
+
+  .main-image {
+    height: 40vh;
+  }
+}
+@media (max-width: 400px) {
+  .nav-header {
+    height: 35vh;
+  }
+
+  .main-image {
+    height: 35vh;
+  }
+}
+
+.header-main-heading {
+  font-family: "Tanker-Regular";
+  font-size: 100px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.header-main-desc {
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  color: #000;
+}
+
+@media (max-width: 1000px) {
+  .header-inner-div {
+    padding: 220px 30px;
+  }
+
+  .header-main-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 786px) {
+  /*.nav-header {*/
+  /*    height: 500px;*/
+  /*}*/
+
+  /*.main-image {*/
+  /*    height: 500px;*/
+  /*}*/
+
+  .header-inner-div {
+    padding: 150px 0 20px 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  /*.nav-header {*/
+  /*    height: 350px;*/
+  /*}*/
+
+  /*.main-image {*/
+  /*    height: 350px;*/
+  /*}*/
+
+  .header-main-heading {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+
+  .header-main-desc {
+    font-size: 13px;
+  }
+
+  .header-inner-div {
+    padding: 100px 0 20px 15px;
+  }
+}
+
+.wheat-divider-img {
+  width: 100%;
+  position: absolute;
+  top: -20px;
+}
+
+.header-content {
+  display: flex !important;
+  padding: 100px;
+}
+
+.mint-button {
+  border: 1px solid black;
+  margin-left: auto;
+  background-color: #f5f595;
+  color: black;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.twitter-follow-button {
+  border: 1px solid black;
+  background-color: #5da9dd;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+
+@media (max-width: 890px) {
+  .header-content {
+    padding: 50px;
+  }
+}
+@media (max-width: 750px) {
+  .header-content {
+    padding: 50px 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    padding: 40px 5px;
+  }
+  .mint-button {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .twitter-follow-button {
+    font-size: 12px;
+    padding: 5px;
+    margin: 0 0 0 5px;
+  }
+}
